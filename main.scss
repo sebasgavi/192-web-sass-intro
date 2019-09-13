@@ -1,0 +1,10 @@
+$maincolor: purple;
+$breakpoint-width: 620px;
+
+@import 'mainheader';
+@import 'banner';
+@import 'btn';
+
+.alert{
+    background: $maincolor;
+}

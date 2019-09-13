@@ -1,0 +1,9 @@
+.banner{
+    height: 320px;
+}
+
+@media (max-width: $breakpoint-width){
+    .banner{
+        height: 200px;
+    }
+}

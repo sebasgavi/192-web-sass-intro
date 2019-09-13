@@ -1,0 +1,19 @@
+.mhead{
+    color: $maincolor;
+
+    &__nav{
+        color: black;
+
+        &--black{
+            background-color: black;
+        }
+    }
+
+    &--big{
+        height: 100px;
+    }
+
+    img{
+        color: blue;
+    }
+}

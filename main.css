@@ -1,0 +1,52 @@
+.mhead {
+  color: purple;
+}
+
+.mhead__nav {
+  color: black;
+}
+
+.mhead__nav--black {
+  background-color: black;
+}
+
+.mhead--big {
+  height: 100px;
+}
+
+.mhead img {
+  color: blue;
+}
+
+.banner {
+  height: 320px;
+}
+
+@media (max-width: 620px) {
+  .banner {
+    height: 200px;
+  }
+}
+
+.btn {
+  background: purple;
+  border-color: #4d004d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn:hover {
+  background: #b300b3;
+}
+
+@media (max-width: 620px) {
+  .btn {
+    border-width: 1px;
+  }
+}
+
+.alert {
+  background: purple;
+}
+/*# sourceMappingURL=main.css.map */

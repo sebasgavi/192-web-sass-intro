@@ -1,0 +1,15 @@
+.btn{
+    background: $maincolor;
+    border-color: darken($maincolor, 10%);
+    display: flex;
+
+    &:hover{
+        background: lighten($maincolor, 10%);
+    }
+}
+
+@media (max-width: $breakpoint-width){
+    .btn{
+        border-width: 1px;
+    }
+}
